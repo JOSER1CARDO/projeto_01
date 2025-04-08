@@ -1,20 +1,19 @@
-# **[Título do Projeto] - Aplicação de Blog Simples com MVC e API RESTful**
+# Loja - Aplicação de Blog Simples com MVC e API RESTful**
 
 ## **1. Apresentação**
 
-Bem-vindo ao repositório do projeto **[Título do Projeto]**. Este projeto é uma entrega do MBA DevXpert Full Stack .NET e é referente ao módulo **Introdução ao Desenvolvimento ASP.NET Core**.
-O objetivo principal desenvolver uma aplicação de blog que permite aos usuários criar, editar, visualizar e excluir posts e comentários, tanto através de uma interface web utilizando MVC quanto através de uma API RESTful.
+Bem-vindo ao repositório do projeto Loja. Este projeto é uma entrega do MBA DevXpert Full Stack .NET e é referente ao módulo **Introdução ao Desenvolvimento ASP.NET Core**.
+O objetivo principal desenvolver uma aplicação de blog que permite aos usuários criar, editar, visualizar e excluir Categorias de produtos, tanto através de uma interface web utilizando MVC quanto através de uma API RESTful.
 Descreva livremente mais detalhes do seu projeto aqui.
 
 ### **Autor(es)**
-- **Nome 1**
-- **Nome 2**
+- Jose ricardo
 
 ## **2. Proposta do Projeto**
 
 O projeto consiste em:
 
-- **Aplicação MVC:** Interface web para interação com o blog.
+- **Aplicação MVC:** Interface web para interação com uma loja virtual.
 - **API RESTful:** Exposição dos recursos do blog para integração com outras aplicações ou desenvolvimento de front-ends alternativos.
 - **Autenticação e Autorização:** Implementação de controle de acesso, diferenciando administradores e usuários comuns.
 - **Acesso a Dados:** Implementação de acesso ao banco de dados através de ORM.
@@ -50,7 +49,7 @@ A estrutura do projeto é organizada da seguinte forma:
 
 ## **5. Funcionalidades Implementadas**
 
-- **CRUD para Posts e Comentários:** Permite criar, editar, visualizar e excluir posts e comentários.
+- **CRUD para Posts e Comentários:** Permite criar, editar, visualizar e excluir categorias de produtos.
 - **Autenticação e Autorização:** Diferenciação entre usuários comuns e administradores.
 - **API RESTful:** Exposição de endpoints para operações CRUD via API.
 - **Documentação da API:** Documentação automática dos endpoints da API utilizando Swagger.
@@ -67,8 +66,7 @@ A estrutura do projeto é organizada da seguinte forma:
 ### **Passos para Execução**
 
 1. **Clone o Repositório:**
-   - `git clone https://github.com/seu-usuario/nome-do-repositorio.git`
-   - `cd nome-do-repositorio`
+   - `[git clone https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/JOSER1CARDO/projeto_01.git)`
 
 2. **Configuração do Banco de Dados:**
    - No arquivo `appsettings.json`, configure a string de conexão do SQL Server.
@@ -77,7 +75,7 @@ A estrutura do projeto é organizada da seguinte forma:
 3. **Executar a Aplicação MVC:**
    - `cd src/Blog.Mvc/`
    - `dotnet run`
-   - Acesse a aplicação em: http://localhost:5000
+   - Acesse a aplicação em: http://localhost:44364
 
 4. **Executar a API:**
    - `cd src/Blog.Api/`
@@ -93,7 +91,7 @@ A estrutura do projeto é organizada da seguinte forma:
 
 A documentação da API está disponível através do Swagger. Após iniciar a API, acesse a documentação em:
 
-http://localhost:5001/swagger
+http://localhost:44364/swagger
 
 ## **9. Avaliação**
 
